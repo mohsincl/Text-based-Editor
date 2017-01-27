@@ -146,9 +146,9 @@ class Main(QtGui.QMainWindow):
         # x and y coordinates on the screen, width, height
         self.setGeometry(100,100,1030,800)
 
-        self.setWindowTitle("Writer")
+        self.setWindowTitle("My Text Editor")
 
-        self.setWindowIcon(QtGui.QIcon("icons/icon.png"))
+        self.setWindowIcon(QtGui.QIcon("icons/Editor.png"))
 
     def new(self):
 
